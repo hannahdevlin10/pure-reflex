@@ -1,0 +1,32 @@
+.enquiryyBox::placeholder {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 950px) {
+    .enquiryyBox, .contactInput, .errorMsg {
+        width: 100% !important;
+    }
+  }
+
+  textarea:hover {
+    border-color: black !important;
+  }
+
+  input, textarea {
+    font-size: 18px;
+    resize: vertical;
+  }
+
+  textarea {
+    max-height: 300px;
+    min-height: 120px;
+  }
+
+  .errorMsg {
+    color: #d32f2f;
+    text-align: left;
+    height: 4px;
+    padding-top: 3px;
+    margin: auto;
+    width: 50%;
+  }

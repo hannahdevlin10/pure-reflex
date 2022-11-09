@@ -46,7 +46,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div style={{ margin: 'auto' }}>
-                    <Link to='/'>
+                    <Link to='/Form'>
                         <Button className="buttonA">
                             Contact Form
                         </Button>

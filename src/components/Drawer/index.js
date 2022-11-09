@@ -42,6 +42,7 @@ const Drawer = () => {
                             <Panel option="Treatments & Prices" link="/treatments_prices" icon="treatment" />
                             <Panel option="Contact" link="/contact" icon="contact" />
                             <Panel option="Terms & Conditions" link="/TC" icon="tc" />
+                            <Panel option="Contact Form" link="/form" icon="form" />
                         </div>
                     </div>
                 </SwipeableDrawer>

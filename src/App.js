@@ -9,6 +9,7 @@ import About from "./components/About";
 import TC from "./components/TC";
 import Treatments from "./components/Treatments";
 import Contact from "./components/Contact";
+import Form from "./components/Form";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route exact path='/treatments_prices' component={Treatments} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/TC' component={TC} />
+          <Route exact path='/Form' component={Form} />
         </Switch>
         <Drawer />
         <Footer />
