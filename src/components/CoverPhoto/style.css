@@ -1,0 +1,92 @@
+.coverPhotoWrapper {
+    height: 499px;
+    width: 101%;
+    left: 0;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.innerWrapper {
+    margin: auto;
+    /* margin-top: 156px; */
+    padding: 0px 15px;
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+}
+
+.title {
+    color: #fff;
+    font-size: 44px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-weight: bolder;
+}
+
+.slogan {
+    color: #f2f2f2;
+    font-size: 24px;
+    margin-top: 14px;
+    margin-bottom: 44px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.MuiButton-label {
+    text-transform: capitalize;
+}
+
+.buttonA {
+    background: #47c1bc !important;
+    font-size: 18px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    width: 185px !important;
+    height: 44px !important;
+    box-shadow: none !important;
+}
+
+.buttonA:hover {
+    background: #369c97 !important
+}
+
+.buttonB:hover {
+    background: #e1e1e1 !important
+}
+
+.buttonB {
+    background: white !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    width: 185px !important;
+    height: 44px !important;
+    box-shadow: none !important;
+    margin-top: 24px !important;
+}
+
+.MuiButton-text {
+    padding: 28px 8px !important;
+}
+
+/* mobile view */
+.buttonsWrapper {
+    display: table;
+}
+
+/* desktop */
+@media (min-width: 399px) {
+    .buttonsWrapper {
+        display: flex;
+        justify-content: space-evenly !important;
+        margin-top: 40px !important;
+    }
+
+    .buttonB {
+        margin-top: 0 !important;
+    }
+ }
+

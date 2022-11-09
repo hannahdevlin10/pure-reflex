@@ -1,0 +1,25 @@
+.navWrapper {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navTitle {
+    font-size: 24px;
+    display: none;
+}
+
+.navLogo {
+    padding-right: 10px;
+}
+
+.navMenuIcon {
+    padding: 0px 15px;
+}
+
+@media (min-width: 365px) {
+    .navTitle {
+        display: flex;
+    }
+ }
