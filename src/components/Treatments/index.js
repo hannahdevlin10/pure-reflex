@@ -14,7 +14,7 @@ const Treatments = () => {
                                 <h4>Classic Reflexology</h4>
                             </div>
                             <div className="rightItem">
-                                €50
+                                €60
                             </div>
                         </div>
                         <div style={{ textAlign: 'left', fontSize: 18, color: '#666666' }}>
@@ -27,7 +27,7 @@ const Treatments = () => {
                                 <h4>Facial Reflexology</h4>
                             </div>
                             <div className="rightItem">
-                                €50
+                                €60
                             </div>
                         </div>
                         <div style={{ textAlign: 'left', fontSize: 18, color: '#666666' }}>
@@ -40,7 +40,7 @@ const Treatments = () => {
                                 <h4>Reflexology for Menopause</h4>
                             </div>
                             <div className="rightItem">
-                                €50
+                                €60
                             </div>
                         </div>
                         <div style={{ textAlign: 'left', fontSize: 18, color: '#666666' }}>

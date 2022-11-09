@@ -23,12 +23,6 @@ const Contact = () => {
     return (
         <>
             <CoverPhotoShort title="Contact" />
-            {/* <div style={{ margin: '16px 0' }}>
-                <CardList options={email} />
-            </div>
-            <div style={{ margin: '16px 0' }}>
-                <CardList options={profile} />
-            </div> */}
         </>
     )
 }

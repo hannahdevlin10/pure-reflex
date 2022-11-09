@@ -11,3 +11,42 @@
   display: table;
   clear: both;
 }
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  padding: 0 10px;
+  width: 33.3%;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 28px 16px;
+  text-align: center;
+  background-color: #369c97;
+  color: white;
+}
+
+.card h3 {
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+
+.card p {
+  font-size: 20px;
+}
+
+.card:hover {
+  cursor: pointer;
+  transition: 0.25s;
+  background: #47c1bc;
+}
