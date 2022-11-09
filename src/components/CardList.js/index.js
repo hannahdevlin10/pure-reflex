@@ -5,8 +5,9 @@ import './style.css'
 const CardList = ({ options }) => {
     return (
         <div className="row">
-            {options.map((item) => (
+            {options.map((item, index) => (
                 <Card
+                    key={index}
                     icon={item.icon}
                     cardWidth={item.cardWidth}
                     title={item.title}
