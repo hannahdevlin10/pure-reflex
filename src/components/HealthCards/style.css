@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* Float four columns side by side */
+  .healthColumn {
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+  }
+
+  /* Clear floats after the columns */
+  .healthRow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 740px) {
+    .healthColumn {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    #irishLife {
+        margin-top: 0px !important;
+    }
+  }
+
+  /* Style the counter cards */
+  .healthCard {
+    padding: 6px;
+    text-align: center;
+    /* border: 1px solid grey; */
+  }
+
+  #irishLife {
+    margin-top: 8px;
+  }
