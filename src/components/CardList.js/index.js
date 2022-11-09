@@ -7,7 +7,7 @@ const CardList = () => {
             <div className="column">
                 <div className="card">
                 <h3>Classic Reflexology</h3>
-                <p>Improves blood circulation and helps to release tension</p>
+                <p>Relieves stress and tension and has a deeply relaxing effect</p>
                 </div>
             </div>
 

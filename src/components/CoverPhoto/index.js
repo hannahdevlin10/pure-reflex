@@ -21,7 +21,11 @@ const CoverPhoto = () => {
                     Relax | Rebalance | Restore
                 </div>
                 <div className="buttonsWrapper">
-                    <Button className="buttonA">Make Appointment</Button>
+                    <Link to='/contact'>
+                        <Button className="buttonA">
+                            Make Appointment
+                        </Button>
+                    </Link>
                     <Link to='/treatments_prices'>
                         <Button className="buttonB">
                             View Treatments

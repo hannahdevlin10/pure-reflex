@@ -1,0 +1,43 @@
+/* Float four columns side by side */
+.cardColumn {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .cardRow {margin: 0 -5px;}
+
+  /* Clear floats after the columns */
+  .cardRow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 700px) {
+    .cardColumn {
+      width: 100%;
+      display: block;
+    }
+    .cardColumn:not(:last-child) {
+      margin-bottom: 20px;
+     }
+  }
+
+  @media screen and (max-width: 700px) {
+    .contactText, .cardContact {
+      font-size: 18px !important;
+    }
+  }
+
+  /* Style the counter cards */
+  .cardContact {
+    padding: 16px;
+    text-align: center;
+  }
+
+  .contactText {
+    color: rgb(102, 102, 102);
+  }
