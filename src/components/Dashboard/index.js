@@ -5,7 +5,7 @@ const options = [
     {
         title: 'Classic Reflexology',
         cardWidth: '33.3%',
-        content: 'Improves blood circulation and helps to release tension',
+        content: 'Relieves stress and tension and has a deeply relaxing effect',
         link: '/'
     },
     {

@@ -1,0 +1,20 @@
+.priceItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftItem, .rightItem {
+    margin-right: 20px;
+    margin-bottom: 0px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.leftItem {
+    text-align: left;
+}
+
+.rightItem {
+    text-align: right;
+}
