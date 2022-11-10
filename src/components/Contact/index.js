@@ -3,6 +3,7 @@ import CoverPhotoShort from "../CoverPhotoShort";
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import SpaIcon from '@mui/icons-material/Spa';
 import './style.css';
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
@@ -13,6 +14,9 @@ const Contact = () => {
             <CoverPhotoShort title="Contact" />
             <div style={{ margin: '30px 0px' }}>
                 <div style={{ width: '70%', margin: 'auto' }}>
+                <div style={{ margin: 'auto', marginBottom: 18 }}>
+                    <SpaIcon style={{ color: '#47c0bc' }} />
+                </div>
                     <div className="cardRow">
                         <div className="cardColumn">
                             <div className="cardContact">

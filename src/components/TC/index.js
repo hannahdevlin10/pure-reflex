@@ -1,6 +1,7 @@
 import React from "react";
 import CoverPhotoShort from "../CoverPhotoShort";
 import HealthCards from "../HealthCards";
+import SpaIcon from '@mui/icons-material/Spa';
 import './style.css'
 
 const TC = () => {
@@ -9,6 +10,9 @@ const TC = () => {
             <CoverPhotoShort title="Terms & Conditions" />
             <div style={{ margin: '30px 0px' }}>
                 <div style={{ width: '70%', margin: 'auto', fontSize: 21, lineHeight: 1.5, letterSpacing: 0.3 }}>
+                <div style={{ margin: 'auto', marginBottom: 18 }}>
+                    <SpaIcon style={{ color: '#47c0bc' }} />
+                </div>
                     <ul style={{ textAlign: 'left' }}>
                         <li>Appointments are for women only</li>
                         <li>By appointment only</li>

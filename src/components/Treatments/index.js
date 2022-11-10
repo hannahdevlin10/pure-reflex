@@ -1,5 +1,6 @@
 import React from "react";
 import CoverPhotoShort from "../CoverPhotoShort";
+import SpaIcon from '@mui/icons-material/Spa';
 import './style.css';
 
 const Treatments = () => {
@@ -8,6 +9,9 @@ const Treatments = () => {
             <CoverPhotoShort title="Treatments & Prices" />
             <div style={{ margin: '30px 0px' }}>
                 <div style={{ width: '70%', margin: 'auto' }}>
+                    <div style={{ margin: 'auto', marginBottom: 18 }}>
+                        <SpaIcon style={{ color: '#47c0bc' }} />
+                    </div>
                     <div style={{ marginBottom: 20 }}>
                         <div className="priceItem">
                             <div className="leftItem">
