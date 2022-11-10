@@ -1,5 +1,4 @@
 import React from "react";
-import Acrostic from "../Acrostic/index.js";
 import CardList from "../CardList.js";
 
 const options = [
