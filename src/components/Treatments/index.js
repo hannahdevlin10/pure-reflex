@@ -6,7 +6,7 @@ const Treatments = () => {
     return (
         <>
             <CoverPhotoShort title="Treatments & Prices" />
-            <div style={{ margin: '60px 0px' }}>
+            <div style={{ margin: '30px 0px' }}>
                 <div style={{ width: '70%', margin: 'auto' }}>
                     <div style={{ marginBottom: 20 }}>
                         <div className="priceItem">

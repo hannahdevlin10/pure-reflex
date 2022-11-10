@@ -25,8 +25,12 @@ const Form = () => {
     return (
         <>
             <CoverPhotoShort title="Contact Form" />
-            <div style={{ margin: '60px 0px' }}>
+            <div style={{ margin: '30px 0px' }}>
                 <div style={{ width: '70%', margin: 'auto' }}>
+                    <div style={{ fontSize: 21, marginBottom: 60 }}>
+                        Please fill out the information below and I will
+                        be in touch with you soon.
+                    </div>
                     <div style={{ marginBottom: 40 }}>
                         <TextField
                             className="contactInput"

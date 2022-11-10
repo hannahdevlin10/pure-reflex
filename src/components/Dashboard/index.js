@@ -1,4 +1,5 @@
 import React from "react";
+import Acrostic from "../Acrostic/index.js";
 import CardList from "../CardList.js";
 
 const options = [
@@ -27,6 +28,9 @@ const Dashboard = () => {
         <div>
             <div style={{ margin: '16px 0' }}>
                 <CardList options={options} />
+                {/* <div style={{ margin: '16px' }}>
+                    <Acrostic />
+                </div> */}
             </div>
         </div>
     )

@@ -3,6 +3,7 @@ import { MainContext } from "../../context/MainContext";
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import { Button } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
+import FacebookIcon from '@mui/icons-material/Facebook';
 import Panel from "./Panel";
 import './style.css';
 
@@ -43,6 +44,11 @@ const Drawer = () => {
                             <Panel option="Contact" link="/contact" icon="contact" />
                             <Panel option="Terms & Conditions" link="/TC" icon="tc" />
                             <Panel option="Contact Form" link="/form" icon="form" />
+                        </div>
+                        <div style={{ margin: '176px 6px auto auto', textAlign: 'right' }}>
+                            <a href='https://www.facebook.com/profile.php?id=100087459316089' style={{ textDecoration: 'none' }}>
+                                <FacebookIcon style={{ color: 'white', fontSize: '30px', padding: '0px' }}/>
+                            </a>
                         </div>
                     </div>
                 </SwipeableDrawer>
