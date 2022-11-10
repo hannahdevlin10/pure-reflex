@@ -17,7 +17,7 @@ const TC = () => {
                         <li>Appointments are for women only</li>
                         <li>By appointment only</li>
                         <li>24 hour cancellation policy</li>
-                        <li>As a registered IRI (Irish Reflexologist Institute) member, I am approved by VHI, Laya, Glohaelthcard and Irish Life Health. Please check your policy to see if you are eligible</li>
+                        <li>As a registered IRI (Irish Reflexologist Institute) member, I am approved by VHI, Laya, Glo Health and Irish Life Health. Please check your policy to see if you are eligible</li>
                         <li>It may be necessary to get your doctor's permission before treatment can commence.
                             Reflexologists are not qualified to diagnose, prescribe or treat medical conditions.</li>
                     </ul>
