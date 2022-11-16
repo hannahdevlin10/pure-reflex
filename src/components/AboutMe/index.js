@@ -7,7 +7,7 @@ const AboutMe = () => {
         <>
             <CoverPhotoShort title="About Me" />
             <div style={{ margin: '30px 0px' }}>
-                <div style={{ width: '70%', margin: 'auto' }}>
+                <div className="mainWrapper">
                     <div className="aboutMeCard">
                         I have always had an interest in Reflexology and experienced its  many benefits over the years.
                         Following more than 20 years in the teaching profession both in Ireland and the UK, I decided to

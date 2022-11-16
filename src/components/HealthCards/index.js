@@ -6,7 +6,7 @@ import './style.css';
 
 const HealthCards = () => {
     return (
-        <div style={{ width: '70%', margin: 'auto' }}>
+        <div className="mainWrapper">
             <div className="healthRow">
                 <div className="healthColumn">
                     <div className="healthCard">

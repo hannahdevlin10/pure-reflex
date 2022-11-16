@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.mainWrapper {
+  width: 70%;
+  margin: auto;
+}
+
+@media screen and (max-width: 525px) {
+  .mainWrapper {
+    width: 82%;
+  }
+}

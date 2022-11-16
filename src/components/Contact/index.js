@@ -10,7 +10,7 @@ const Contact = () => {
         <>
             <CoverPhotoShort title="Contact" />
             <div style={{ margin: '30px 0px' }}>
-                <div style={{ width: '70%', margin: 'auto' }}>
+                <div className="mainWrapper">
                     <div className="cardRow" style={{ marginBottom: 25 }}>
                         <div className="cardColumn">
                             <div className="cardContact">

@@ -52,6 +52,9 @@ const Drawer = () => {
                             <Panel option="Terms & Conditions" link="/TC" icon="tc" />
                             <Panel option="About Me" link="/about_me" icon="aboutme" />
                         </div>
+                        <div style={{ position: 'absolute', left: 24, bottom: 36, color: 'white', fontSize: 14 }}>
+                            &copy; Copyright PureReflexology
+                        </div>
                         <div style={{ position: 'absolute', right: 26, bottom: 26 }}>
                             <a href='https://www.facebook.com/profile.php?id=100087459316089' style={{ textDecoration: 'none' }}>
                                 <FacebookIcon style={{ color: 'white', fontSize: '30px', padding: '0px' }}/>

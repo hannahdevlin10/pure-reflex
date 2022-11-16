@@ -8,7 +8,7 @@ const TC = () => {
         <>
             <CoverPhotoShort title="Terms & Conditions" />
             <div style={{ margin: '46px 0px' }}>
-                <div style={{ width: '70%', margin: 'auto', fontSize: 21, lineHeight: 1.5, letterSpacing: 0.3 }}>
+                <div className="mainWrapper" style={{ fontSize: 21, lineHeight: 1.5, letterSpacing: 0.3 }}>
                     <ul style={{ textAlign: 'left' }}>
                         <li>Appointments are for women only</li>
                         <li>24 hour cancellation policy</li>

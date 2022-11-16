@@ -24,7 +24,7 @@ const Form = () => {
     return (
         <>
             <div style={{ margin: '10px 0px' }}>
-                <div style={{ width: '70%', margin: 'auto' }}>
+                <div className="mainWrapper">
                     <div style={{ fontSize: 23, marginBottom: 30 }}>
                         Please fill out the information below and I will
                         be in touch with you soon.

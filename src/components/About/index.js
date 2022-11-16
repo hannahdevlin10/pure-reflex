@@ -7,7 +7,7 @@ const About = () => {
         <>
             <CoverPhotoShort title="About Reflexology" />
             <div style={{ margin: '46px 0px' }}>
-                <div style={{ width: '70%', margin: 'auto' }}>
+                <div className="mainWrapper">
                     <Desc />
                 </div>
             </div>
