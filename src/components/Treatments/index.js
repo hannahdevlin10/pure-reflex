@@ -8,7 +8,7 @@ const Treatments = () => {
             <CoverPhotoShort title="Treatments & Prices" />
             <div style={{ margin: '30px 0px' }}>
                 <div className="mainWrapper">
-                    <div style={{ marginBottom: 40 }}>
+                    <div style={{ marginBottom: 25 }}>
                         <div className="priceItem">
                             <div className="leftItem">
                                 <h4>Classic Reflexology</h4>
@@ -21,7 +21,7 @@ const Treatments = () => {
                             Relieves stress and tension and has a deeply relaxing effect (45 mins)
                         </div>
                     </div>
-                    <div style={{ marginBottom: 40 }}>
+                    <div style={{ marginBottom: 25 }}>
                         <div className="priceItem">
                             <div className="leftItem">
                                 <h4>Facial Reflexology</h4>
@@ -34,7 +34,7 @@ const Treatments = () => {
                             Works the facial contours to relax tightness or stagnation (45 mins)
                         </div>
                     </div>
-                    <div style={{ marginBottom: 30 }}>
+                    <div style={{ marginBottom: 25 }}>
                         <div className="priceItem">
                             <div className="leftItem">
                                 <h4>Reflexology for Menopause</h4>
