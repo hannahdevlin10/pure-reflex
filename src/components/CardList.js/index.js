@@ -27,7 +27,7 @@ const CardList = () => {
                 <div className="column">
                     <div className="card">
                     <h3>Reflexology for Menopause</h3>
-                    <p style={{ fontWeight: 'lighter' }}>Regulates hormones and glandular functions of the body</p>
+                    <p style={{ fontWeight: 'lighter' }}>Regulates hormones and calms the nervous system</p>
                     </div>
                 </div>
             </Link>

@@ -44,7 +44,7 @@ const Treatments = () => {
                             </div>
                         </div>
                         <div style={{ textAlign: 'left', fontSize: 18, color: '#666666' }}>
-                            Regulates hormones and glandular functions of the body (45 mins)
+                            Regulates hormones and calms the nervous system (45 mins)
                         </div>
                     </div>
                 </div>

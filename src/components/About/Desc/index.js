@@ -18,13 +18,13 @@ const Desc = () => {
                     <div className='column'>
                         <div className='card' id="aboutCard">
                             <SpaIcon style={{ color: '#47c1bc' }} />
-                            <div id="aboutCardText">Improve circulation</div>
+                            <div id="aboutCardText">Improves circulation</div>
                         </div>
                     </div>
                     <div className='column'>
                         <div className='card' id="aboutCard">
                             <SpaIcon style={{ color: '#47c1bc' }} />
-                            <div id="aboutCardText">Induces relaxtion</div>
+                            <div id="aboutCardText">Induces relaxation</div>
                         </div>
                     </div>
                     <div className='column'>

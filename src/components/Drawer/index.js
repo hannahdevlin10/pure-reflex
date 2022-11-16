@@ -47,10 +47,10 @@ const Drawer = () => {
                         <div className="drawerContent" style={{ marginTop: 15 }}>
                             <Panel option="Home" link="/" icon="home" />
                             <Panel option="About Reflexology" link="/about" icon="about" />
+                            <Panel option="About Me" link="/about_me" icon="aboutme" />
                             <Panel option="Treatments & Prices" link="/treatments_prices" icon="treatment" />
                             <Panel option="Contact" link="/contact" icon="contact" />
                             <Panel option="Terms & Conditions" link="/TC" icon="tc" />
-                            <Panel option="About Me" link="/about_me" icon="aboutme" />
                         </div>
                         <div style={{ position: 'absolute', left: 24, bottom: 36, color: 'white', fontSize: 14 }}>
                             &copy; Copyright PureReflexology

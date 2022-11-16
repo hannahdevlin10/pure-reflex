@@ -17,7 +17,7 @@ const options = [
     {
         title: 'Reflexology for Menopause',
         cardWidth: '33.3%',
-        content: 'Regulates hormones and glandular functions of the body',
+        content: 'Regulates hormones and calms the nervous system',
         link: '/'
     }
 ]
