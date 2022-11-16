@@ -1,8 +1,6 @@
 import { Button, TextareaAutosize, TextField } from "@mui/material";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import CoverPhotoShort from "../CoverPhotoShort";
-import SpaIcon from '@mui/icons-material/Spa';
 import './style.css';
 
 const Form = () => {
@@ -25,13 +23,9 @@ const Form = () => {
 
     return (
         <>
-            <CoverPhotoShort title="Contact Form" />
-            <div style={{ margin: '30px 0px' }}>
+            <div style={{ margin: '10px 0px' }}>
                 <div style={{ width: '70%', margin: 'auto' }}>
-                    <div style={{ margin: 'auto', marginBottom: 18 }}>
-                        <SpaIcon style={{ color: '#47c0bc' }} />
-                    </div>
-                    <div style={{ fontSize: 21, marginBottom: 60 }}>
+                    <div style={{ fontSize: 23, marginBottom: 30 }}>
                         Please fill out the information below and I will
                         be in touch with you soon.
                     </div>

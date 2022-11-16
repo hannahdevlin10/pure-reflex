@@ -9,10 +9,9 @@ import About from "./components/About";
 import TC from "./components/TC";
 import Treatments from "./components/Treatments";
 import Contact from "./components/Contact";
-import Form from "./components/Form";
+import AboutMe from "./components/AboutMe";
 
 function App() {
-
   return (
     <Router>
       <div className="App">
@@ -23,7 +22,7 @@ function App() {
           <Route exact path='/treatments_prices' component={Treatments} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/TC' component={TC} />
-          <Route exact path='/Form' component={Form} />
+          <Route exact path='/about_me' component={AboutMe} />
         </Switch>
         <Drawer />
         <Footer />

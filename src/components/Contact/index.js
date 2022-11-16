@@ -3,10 +3,8 @@ import CoverPhotoShort from "../CoverPhotoShort";
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import SpaIcon from '@mui/icons-material/Spa';
 import './style.css';
-import { Link } from "react-router-dom";
-import { Button } from "@mui/material";
+import Form from "../Form";
 
 const Contact = () => {
     return (
@@ -14,10 +12,7 @@ const Contact = () => {
             <CoverPhotoShort title="Contact" />
             <div style={{ margin: '30px 0px' }}>
                 <div style={{ width: '70%', margin: 'auto' }}>
-                <div style={{ margin: 'auto', marginBottom: 18 }}>
-                    <SpaIcon style={{ color: '#47c0bc' }} />
-                </div>
-                    <div className="cardRow">
+                    <div className="cardRow" style={{ marginBottom: 25 }}>
                         <div className="cardColumn">
                             <div className="cardContact">
                                 <div style={{ marginBottom: 15 }}>
@@ -49,24 +44,10 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="cardContact" style={{ margin: '15px 5px', fontSize: 20, textAlign: 'left', lineHeight: 1.4, letterSpacing: 0.3 }}>
-                        I have always had an interest in Reflexology and experienced its  many benefits over the years.
-                        Following more than 20 years in the teaching profession both in Ireland and the UK, I decided to
-                        qualify as a Reflexologist. I obtained my ITEC Diploma with Distinction in Reflexology, and in
-                        Anatomy and Physiology from the Holistic College Dublin. I have also completed courses in
-                        Facial Reflexology and in Reflexology for Menopause. <br /> <br/> My specialty is in Women`s Health and
-                        Wellbeing. I am a member of the Irish Reflexologists Institute and am fully insured. Becoming a
-                        Reflexologist was the right decision for me and I look forward to the next chapter. I believe
-                        that in order for us to take care of others, we need to take care of ourselves first.
-                    </div>
                 </div>
-                <div style={{ margin: 'auto' }}>
-                    <Link to='/Form'>
-                        <Button className="buttonA">
-                            Contact Form
-                        </Button>
-                    </Link>
-                </div>
+                {/* <div style={{ margin: 'auto', marginTop: 35 }}>
+                    <Form />
+                </div> */}
             </div>
         </>
     )

@@ -1,4 +1,5 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { MainContext } from "../../context/MainContext";
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import { Button } from '@mui/material';
@@ -9,6 +10,7 @@ import './style.css';
 
 const Drawer = () => {
     const { isDrawerOpen, setIsDrawerOpen } = useContext(MainContext);
+    const location = useLocation();
 
     const handleOnOpen = () => {
         if (!isDrawerOpen) {
@@ -21,6 +23,10 @@ const Drawer = () => {
     const handleOnClose = () => {
         setIsDrawerOpen(false)
     }
+
+    useEffect(() => {
+        setIsDrawerOpen(false);
+    }, [location]);
 
     return (
         <>
@@ -43,9 +49,9 @@ const Drawer = () => {
                             <Panel option="Treatments & Prices" link="/treatments_prices" icon="treatment" />
                             <Panel option="Contact" link="/contact" icon="contact" />
                             <Panel option="Terms & Conditions" link="/TC" icon="tc" />
-                            <Panel option="Contact Form" link="/form" icon="form" />
+                            <Panel option="About Me" link="/about_me" icon="aboutme" />
                         </div>
-                        <div style={{ margin: '176px 6px auto auto', textAlign: 'right' }}>
+                        <div style={{ position: 'absolute', right: 26, bottom: 26 }}>
                             <a href='https://www.facebook.com/profile.php?id=100087459316089' style={{ textDecoration: 'none' }}>
                                 <FacebookIcon style={{ color: 'white', fontSize: '30px', padding: '0px' }}/>
                             </a>
