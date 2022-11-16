@@ -26,6 +26,7 @@ const Drawer = () => {
 
     useEffect(() => {
         setIsDrawerOpen(false);
+        // eslint-disable-next-line
     }, [location]);
 
     return (

@@ -4,7 +4,6 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import './style.css';
-import Form from "../Form";
 
 const Contact = () => {
     return (
@@ -45,9 +44,6 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div style={{ margin: 'auto', marginTop: 35 }}>
-                    <Form />
-                </div> */}
             </div>
         </>
     )
