@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Route, Switch, useLocation, BrowserRouter as Router, } from "react-router-dom";
+import { Route, Switch, BrowserRouter as Router, } from "react-router-dom";
 import './App.css';
 import Nav from './components/Nav';
 import Drawer from './components/Drawer';
