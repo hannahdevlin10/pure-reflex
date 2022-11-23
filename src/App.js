@@ -11,8 +11,6 @@ import Contact from "./components/Contact";
 import AboutMe from "./components/AboutMe";
 
 function App() {
-  const location = useLocation();
-
   return (
     <Router>
       <div className="App">
