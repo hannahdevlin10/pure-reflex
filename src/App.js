@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Route, Switch, BrowserRouter as Router, } from "react-router-dom";
+import { Route, Switch, useLocation, BrowserRouter as Router, } from "react-router-dom";
 import './App.css';
 import Nav from './components/Nav';
 import Drawer from './components/Drawer';
@@ -11,6 +11,8 @@ import Contact from "./components/Contact";
 import AboutMe from "./components/AboutMe";
 
 function App() {
+  const location = useLocation();
+
   return (
     <Router>
       <div className="App">

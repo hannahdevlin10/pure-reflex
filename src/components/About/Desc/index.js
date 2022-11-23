@@ -30,7 +30,7 @@ const Desc = () => {
                     <div className='column'>
                         <div className='card' id="aboutCard">
                             <SpaIcon style={{ color: '#47c1bc' }} />
-                            <div id="aboutCardText">Improves energy</div>
+                            <div id="aboutCardText">Helps the body to eliminate toxins</div>
                         </div>
                     </div>
                 </div>
@@ -51,14 +51,6 @@ const Desc = () => {
                         <div className='card' id="aboutCard">
                             <SpaIcon style={{ color: '#47c1bc' }} />
                             <div id="aboutCardText">Strengthens the immune system</div>
-                        </div>
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='column'>
-                        <div className='card' id="aboutCard">
-                            <SpaIcon style={{ color: '#47c1bc' }} />
-                            <div id="aboutCardText">Helps the body to eliminate toxins</div>
                         </div>
                     </div>
                 </div>

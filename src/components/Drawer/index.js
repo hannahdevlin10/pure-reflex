@@ -9,7 +9,7 @@ import Panel from "./Panel";
 import './style.css';
 
 const Drawer = () => {
-    const { isDrawerOpen, setIsDrawerOpen } = useContext(MainContext);
+    const { isDrawerOpen, setIsDrawerOpen, setActivePage } = useContext(MainContext);
     const location = useLocation();
 
     const handleOnOpen = () => {
@@ -26,6 +26,7 @@ const Drawer = () => {
 
     useEffect(() => {
         setIsDrawerOpen(false);
+        setActivePage(location.pathname)
         // eslint-disable-next-line
     }, [location]);
 
@@ -52,7 +53,7 @@ const Drawer = () => {
                             <Panel option="Contact" link="/contact" icon="contact" />
                             <Panel option="Terms & Conditions" link="/TC" icon="tc" />
                         </div>
-                        <div style={{ position: 'absolute', left: 24, bottom: 36, color: 'white', fontSize: 14 }}>
+                        <div style={{ position: 'absolute', left: 24, bottom: 36, color: 'white', fontSize: 12 }}>
                             &copy; Copyright PureReflexology
                         </div>
                         <div style={{ position: 'absolute', right: 26, bottom: 26 }}>

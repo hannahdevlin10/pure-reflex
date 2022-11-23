@@ -74,11 +74,11 @@
 
 /* mobile view */
 .buttonsWrapper {
-    display: table;
+    display: inline-grid;
 }
 
 /* desktop */
-@media (min-width: 399px) {
+@media (min-width: 465px) {
     .buttonsWrapper {
         display: flex;
         justify-content: space-evenly !important;
