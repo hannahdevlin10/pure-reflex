@@ -4,7 +4,6 @@ import InfoIcon from '@mui/icons-material/Info';
 import SpaIcon from '@mui/icons-material/Spa';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
 import AssignmentIcon from '@mui/icons-material/Assignment';
-import MailIcon from '@mui/icons-material/Mail';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { MainContext } from "../../../context/MainContext";
 import { Link } from "react-router-dom";
