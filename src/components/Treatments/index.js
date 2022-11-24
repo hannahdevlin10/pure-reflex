@@ -62,7 +62,7 @@ const Treatments = () => {
                             and Reproductive systems to help balance and calm. 85% of women experience
                             menopausal symptoms, of which there are many. Reflexology can give women
                             the opportunity to help themselves by providing a quiet, soothing environment
-                            to relax, ground and heal themselves during this challenging time.
+                            to relax and restore during this challenging time.
                         </div>
                     </div>
                 </div>
