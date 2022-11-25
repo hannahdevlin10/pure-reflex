@@ -1,9 +1,10 @@
 .enquiryyBox::placeholder {
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Anek Latin', sans-serif !important;
 }
 
 @media screen and (max-width: 950px) {
-    .enquiryyBox, .contactInput, .errorMsg {
+    .enquiryyBox, .contactInput, .errorMsg, .MuiAlert-root {
         width: 100% !important;
     }
   }
@@ -29,4 +30,10 @@
     padding-top: 3px;
     margin: auto;
     width: 50%;
+  }
+
+ .MuiAlert-root {
+    font-size: 18px !important;
+    width: 80%;
+    margin: auto !important;
   }

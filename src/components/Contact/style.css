@@ -32,9 +32,15 @@
     }
   }
 
+  @media screen and (max-width: 700px) {
+    .cardContact {
+      padding: 16px;
+    }
+  }
+
   /* Style the counter cards */
   .cardContact {
-    padding: 16px;
+    padding: 6px;
     text-align: center;
   }
 
