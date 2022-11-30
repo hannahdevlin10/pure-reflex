@@ -24,7 +24,7 @@ const Nav = () => {
             <div className="navWrapper">
                 <div style={{ display: 'flex', margin: 'auto 0', padding: '0 15px' }}>
                     <div className="navLogo" style={{ margin: 'auto 0' }}>
-                        <img src={reflexLogo} alt='logo' width={24} style={{ marginTop: '1.5px' }} />
+                        <img src={reflexLogo} alt='logo' width={24} height={24} style={{ marginTop: '1.5px' }} />
                     </div>
                     <Link to ='/' style={{ color: 'black', textDecoration: 'none', fontWeight: 'normal' }}>
                         <div className="navTitle">

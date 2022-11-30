@@ -8,7 +8,7 @@ const Desc = () => {
             <div style={{ marginTop: 18, fontSize: 20, textAlign: 'left', lineHeight: 1.4, letterSpacing: 0.3 }}>
                 Reflexology is a Holistic Therapy which works on the reflex points of the feet that relate to
                 all the organs / systems of the body. By using precise finger techniques a reflexologist can help
-                in inducing relaxtion, thus enabling the body to internally balance or Homeostasis as we know it.
+                in inducing relaxation, thus enabling the body to internally balance or Homeostasis as we know it.
             </div>
             <div style={{ marginTop: 44, textAlign: 'left' }}>
                 <div style={{ fontSize: 24, letterSpacing: 0.3, fontWeight: 600, marginBottom: 14 }}>
