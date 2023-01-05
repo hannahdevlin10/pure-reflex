@@ -38,7 +38,7 @@ const Drawer = () => {
                 onOpen={() => {}}
                 onClose={handleOnOpen}
                 BackdropProps={{ invisible: true }}
-                variant="persistent">
+                variant="temporary">
                     <div style={{ textAlign: 'center', width: '40vh', padding: '8px 20px' }}>
                         <div style={{ margin: '-20px -8px auto auto', textAlign: 'right' }}>
                             <Button style={{ color: 'white' }} onClick={handleOnClose}>

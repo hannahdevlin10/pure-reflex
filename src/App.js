@@ -1,5 +1,6 @@
 import * as React from "react";
-import { Route, Switch, BrowserRouter as Router, } from "react-router-dom";
+import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
+import ReactGA from 'react-ga';
 import './App.css';
 import Nav from './components/Nav';
 import Drawer from './components/Drawer';
@@ -10,7 +11,15 @@ import Treatments from "./components/Treatments";
 import Contact from "./components/Contact";
 import AboutMe from "./components/AboutMe";
 
+const TRACKING_ID = "G-D42EK4JFRF";
+ReactGA.initialize(TRACKING_ID);
+
 function App() {
+
+  React.useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <Router>
       <div className="App">
