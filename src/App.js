@@ -11,7 +11,7 @@ import Treatments from "./components/Treatments";
 import Contact from "./components/Contact";
 import AboutMe from "./components/AboutMe";
 
-const TRACKING_ID = "G-D42EK4JFRF";
+const TRACKING_ID = "UA-253229082-1";
 ReactGA.initialize(TRACKING_ID);
 
 function App() {
