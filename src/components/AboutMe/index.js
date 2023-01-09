@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import CoverPhotoShort from "../CoverPhotoShort";
 import ProfilePic from '../../assets/j_d_profile.png';
 import './style.css';
@@ -11,7 +12,7 @@ const AboutMe = () => {
                 <div className="mainWrapper">
                     <div className="outerWrapper">
                         <div className="inWrapper" id="profilePic" style={{ WebkitAnimation: 'none' }}>
-                            <img src={ProfilePic} alt="profilePicture" style={{ borderRadius: 10 }} />
+                            <LazyLoadImage src={ProfilePic} alt="profilePicture" style={{ borderRadius: 10 }} />
                         </div>
                         <div className="inWrapper" id="aboutMeCard" style={{ WebkitAnimation: 'none' }}>
                             I have always had an interest in Reflexology and experienced its  many benefits over the years.

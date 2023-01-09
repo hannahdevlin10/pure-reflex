@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import vhiLogo from '../../assets/vhiLogo.png';
 import layaLogo from '../../assets/layaLogo.png';
 import irishLifeLogo from '../../assets/irishLifeLogo.png';
@@ -10,17 +11,17 @@ const HealthCards = () => {
             <div className="healthRow">
                 <div className="healthColumn">
                     <div className="healthCard">
-                        <img src={vhiLogo} alt="vhi" width={150} />
+                        <LazyLoadImage src={vhiLogo} alt="vhi" width={150} />
                     </div>
                 </div>
                 <div className="healthColumn">
                     <div className="healthCard">
-                        <img src={layaLogo} alt="vhi" width={150} />
+                        <LazyLoadImage src={layaLogo} alt="vhi" width={150} />
                     </div>
                 </div>
                 <div className="healthColumn">
                     <div className="healthCard">
-                        <img src={irishLifeLogo} id="irishLife" alt="vhi" width={165} />
+                        <LazyLoadImage src={irishLifeLogo} id="irishLife" alt="vhi" width={165} />
                     </div>
                 </div>
             </div>
