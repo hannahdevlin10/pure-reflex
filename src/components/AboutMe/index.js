@@ -23,6 +23,8 @@ const AboutMe = () => {
                             Wellbeing. I am a member of the Irish Reflexologists Institute and am fully insured. Becoming a
                             Reflexologist was the right decision for me and I look forward to the next chapter. I believe
                             that in order for us to take care of others, we need to take care of ourselves first.
+                            <br /> <br/>
+                            - Jennifer Devlin
                         </div>
                     </div>
                 </div>
