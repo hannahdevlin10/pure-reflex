@@ -1,7 +1,8 @@
-import { Button } from "@material-ui/core";
 import React from "react";
 import { Link } from "react-router-dom";
+import { Button } from "@material-ui/core";
 import lotusPic from '../../assets/water-lily-dark.png'
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 import './style.css';
 
 const CoverPhoto = () => {
@@ -19,6 +20,19 @@ const CoverPhoto = () => {
                 </div>
                 <div className="slogan">
                     Relax | Rebalance | Restore
+                </div>
+                <div
+                    className="location"
+                    style={{
+                        display: 'flex',
+                        justifyContent: 'center'
+                        }}>
+                    <div>
+                        <LocationOnIcon style={{ fontSize: 25 }} />
+                    </div>
+                    <div style={{ marginLeft: 3 }}>
+                       Terenure, South Dublin
+                    </div>
                 </div>
                 <div className="buttonsWrapper">
                     <Link to='/contact'>
