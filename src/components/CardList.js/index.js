@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SpaIcon from '@mui/icons-material/Spa';
 import './style.css'
 
 const CardList = () => {
@@ -8,6 +9,7 @@ const CardList = () => {
             <Link to="/treatments_prices">
                 <div className="column">
                     <div className="card">
+                    <SpaIcon style={{ color: 'white' }} />
                     <h3>Classic Reflexology</h3>
                     <p style={{ fontWeight: 'lighter' }}>Relieves stress and tension and has a deeply relaxing effect</p>
                     </div>
@@ -17,6 +19,7 @@ const CardList = () => {
             <Link to="/treatments_prices">
                 <div className="column">
                     <div className="card">
+                    <SpaIcon style={{ color: 'white' }} />
                     <h3>Facial Reflexology</h3>
                     <p style={{ fontWeight: 'lighter' }}>Works the facial contours to relax tightness or stagnation</p>
                     </div>
@@ -26,6 +29,7 @@ const CardList = () => {
             <Link to="/treatments_prices">
                 <div className="column">
                     <div className="card">
+                    <SpaIcon style={{ color: 'white' }} />
                     <h3>Reflexology for Menopause</h3>
                     <p style={{ fontWeight: 'lighter' }}>Regulates hormones and calms the central nervous system</p>
                     </div>

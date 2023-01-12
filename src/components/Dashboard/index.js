@@ -1,5 +1,6 @@
 import React from "react";
 import CardList from "../CardList.js";
+import AboutReflex from "./AboutReflex/index.js";
 
 const options = [
     {
@@ -25,11 +26,11 @@ const options = [
 const Dashboard = () => {
     return (
         <div>
-            <div style={{ margin: '16px 0' }}>
+            <div style={{ margin: '16px 0 40px 0' }}>
                 <CardList options={options} />
-                {/* <div style={{ margin: '16px' }}>
-                    <Acrostic />
-                </div> */}
+                <div className="mainWrapper" style={{ marginTop: 100, marginBottom: 100 }}>
+                    <AboutReflex />
+                </div>
             </div>
         </div>
     )

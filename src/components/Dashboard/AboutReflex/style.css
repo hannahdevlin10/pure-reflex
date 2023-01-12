@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.aboutMainWrapper {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.abtCol {
+  float: left;
+  padding: 0 10px;
+  width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  .abtCol {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

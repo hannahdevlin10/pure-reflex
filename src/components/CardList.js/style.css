@@ -2,8 +2,15 @@
     box-sizing: border-box;
   }
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 .row {
   margin: 0 -5px;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
 }
 
 .row:after {

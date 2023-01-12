@@ -1,7 +1,8 @@
 .coverPhotoWrapper {
     height: 499px;
-    width: 101%;
+    width: 100%;
     left: 0;
+    margin-top: 70px;
     display: flex;
     background-repeat: no-repeat;
 }

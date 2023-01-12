@@ -1,8 +1,9 @@
 .shortWrapper {
     height: 180px;
-    width: 101%;
+    width: 100%;
     left: 0;
     display: flex;
+    margin-top: 70px;
     background-repeat: no-repeat;
     background-size: cover;
 }

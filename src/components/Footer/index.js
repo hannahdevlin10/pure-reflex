@@ -3,7 +3,7 @@ import './style.css';
 
 const Footer = () => (
   <div className="footer">
-    <div className="content">
+    <div className="footerContent">
         &copy; Copyright PureReflexology
     </div>
   </div>
